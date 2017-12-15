@@ -1,0 +1,10 @@
+Responde a las siguientes preguntas:
+
+¿Se mantienen todas las modificaciones hechas dentro de un método?
+No, no se mantienen en el caso de variables de tipo primitivo, porque al tratarse de paso de argumentos por valor, realmente se están modificando las copias, el valor original sigue valiendo 7, y no se están devolviendo las modificaciones con return.
+
+En el caso de referencia a objetos, se realiza una copia de la referencia, que apunta al mismo objeto. La modificación no afecta al argumento original (referencia) aunque sí permiten modificar el objeto al que ambas apuntan (ambas referencias apuntan a una misma copia) Así, en este caso la modificación directa del array devuelve un 1 para la primera posición (por defecto valía 0 para un array de 7 enteros) en un caso, y la modificación de vector[0] modifica el valor de ese entero en la copia de vector, por lo que sigue valiendo 1. 
+
+¿Cómo mantener las modificaciones hechas dentro de un método?
+
+Para mantener las modificaciones realizadas en un método, es necesario devolverlas mediante return y asignarlas.

@@ -1,0 +1,8 @@
+    1. Indica el valor mostrado en la ejecución
+	La ejecución muestra un valor 15 en la ejecución, resultado de multiplicar el valor del campo por dos y aplicarle un incremento.
+    2. ¿Qué característica tiene un campo static?
+	Los campos estáticos pueden ser accedidos sin necesidad de crear una instancia de clase, son útiles para guardar información que es universal para una clase, como por ejemplo para contar el número de instancias de esa clase han sido creadas.
+    3. ¿Cómo se accede a un campo static?
+	Puede accederse a un campo static desde dentro o fuera de la clase sin necesidad de una instancia de clase.Puede accederse usando notación con punto, esto es, NombreDeLaClase.nombredelcampostatic
+    4. ¿Puede accederse a un campo static directamente, sin la creación de objetos? Demuéstralo modificando el código anterior. Entrégalo.
+	Sí, no es necesario crear un objeto para acceder a un campo static, como se ha indicado. Se entrega código modificado con acceso sin creación de objeto.
